@@ -8,7 +8,7 @@ export const ACT2_RUINAS_NODES: NarrativeNode[] = [
     id: 'a2_karn_01',
     locationId: 'karn_tuhl',
     title: 'Aproximação',
-    imageId: 'scenes/karn_tuhl_entry.webp',
+    imageId: 'scenes/karn_tuhl_entry.png',
     text: 'A trilha sobe e o ar fica fino antes da paciência ficar fina. Karn-Tuhl não foi construída na montanha — foi feita *como* a montanha. As muralhas são lascas naturais empilhadas pela mão do tempo até parecerem propósito. De longe, parece que a fortaleza está dormindo. De perto, parece que está esperando.\n\nA neve aqui é antiga. Não a neve do inverno passado: neve que ninguém pisou em décadas. Quando seu pé afunda, o som que sai é de papel velho.',
     choices: [
       {
@@ -276,7 +276,7 @@ export const ACT2_RUINAS_NODES: NarrativeNode[] = [
     id: 'a2_karn_07',
     locationId: 'karn_tuhl',
     title: 'Sala do Trono',
-    imageId: 'scenes/durin_throne.webp',
+    imageId: 'scenes/durin_throne.png',
     text: 'Você sai do salão da forja para um corredor que afunda em curva, e o corredor se abre num Salão do Trono que parece pequeno apenas por causa do trono que ocupa o centro. O trono é simples: pedra trabalhada com runas pequenas. Vazio. Atrás do trono, doze braseiros, todos apagados há séculos.\n\nQuando você dá o décimo passo na sala, os doze braseiros se acendem ao mesmo tempo, com fogo azul. E sobre o trono, a forma de um anão de armadura trabalhada — translúcido, contornado em luz fria — toma assento.',
     choices: [
       {

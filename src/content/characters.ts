@@ -8,7 +8,7 @@ export const CHARACTERS: CharacterClass[] = [
     title: 'O Aprendiz Esquecido',
     backstory:
       'Aprendiz da Torre de Vesperia, dedicada à magia arcana protetora. Quando a Torre foi consumida pelas Sombras Errantes, Eldwin foi o único sobrevivente — salvo por um ritual incompleto que custou a vida do mestre. Carrega o cajado quebrado do mestre como lembrança e fardo. Acredita que o conhecimento vence o medo, mas seu corpo franzino paga o preço da escolha de estudar em vez de treinar.',
-    portraitImage: '/images/characters/mago.webp',
+    portraitImage: '/images/characters/mago.png',
     baseStats: { habilidade: 7, energia: 14, sorte: 11 },
     skillBonuses: {
       arcano: 2,
@@ -31,7 +31,7 @@ export const CHARACTERS: CharacterClass[] = [
     title: 'A Adaga de Duas Faces',
     backstory:
       'Cresceu nos becos de Bramford depois que sua família foi acusada injustamente de heresia. Aprendeu cedo que a verdade é só a história mais bem contada. Trabalhou com a Guilda da Adaga Quieta até descobrir que o mestre da Guilda também serve às Sombras — desde então, foge dele tanto quanto persegue uma chance de redenção. Carrega adagas gêmeas que pertenciam ao pai.',
-    portraitImage: '/images/characters/ladino.webp',
+    portraitImage: '/images/characters/ladina.png',
     baseStats: { habilidade: 8, energia: 16, sorte: 12 },
     skillBonuses: {
       furtividade: 2,
@@ -54,7 +54,7 @@ export const CHARACTERS: CharacterClass[] = [
     title: 'O Exilado do Norte',
     backstory:
       'Filho de chefe da tribo Korrundir, das estepes geladas do Norte. Foi exilado depois de recusar matar um irmão de sangue por uma ordem que considerou injusta. Vagueia o sul há dois invernos, lutando como mercenário, sempre carregando o machado totêmico do clã — e a culpa de não ter dito sim. Acredita que algumas batalhas exigem mais que força, mas ainda não descobriu quais.',
-    portraitImage: '/images/characters/barbaro.webp',
+    portraitImage: '/images/characters/barbaro.png',
     baseStats: { habilidade: 10, energia: 22, sorte: 7 },
     skillBonuses: {
       atletismo: 2,

@@ -8,7 +8,7 @@ export const ACT3_NODES: NarrativeNode[] = [
     id: 'a3_cidadela_01',
     locationId: 'cidadela_sombras',
     title: 'Aproximação ao Vale',
-    imageId: 'scenes/cidadela_exterior.webp',
+    imageId: 'scenes/cidadela_exterior.png',
     text: 'O vale onde a Cidadela das Sombras espera não tem nome no mapa. A última légua é uma descida em ziguezague, e a Égide na sua palma esquenta a cada curva, como quem reconhece um caminho que já fez antes. Acima, nuvens negras correm em sentidos opostos sobre o céu — duas correntes que não deveriam coexistir. Abaixo, a Cidadela: torres de basalto rachado, sem luzes nas janelas, mas com uma luz dentro mesmo assim, fraca, baixa, de algo que arde sem queimar.\n\nVocê para no último alto antes da ponte de pedra que liga o desfiladeiro à muralha. A ponte é estreita; do meio dela em diante, é Vorthun.',
     onEnter: [
       { kind: 'setFlag', key: 'egide_forjada', value: true },
@@ -265,7 +265,7 @@ export const ACT3_NODES: NarrativeNode[] = [
     id: 'a3_cidadela_07',
     locationId: 'cidadela_sombras',
     title: 'A Sala do Trono',
-    imageId: 'scenes/vorthun_throne.webp',
+    imageId: 'scenes/vorthun_throne.png',
     text: 'A Sala do Trono é grande além do que a Cidadela parecia conter. O teto se perde no escuro alto. Doze pilares pretos, um para cada século. Doze chamas verdes em braseiros altos. No centro do salão, um trono de osso e ferro. No trono, Vorthun, o Sombrio Coroado.\n\nEle não se levanta. Não acena. Apenas espera você atravessar todo o salão, devagar, e parar a três passos do trono. Quando finalmente fala, a voz não é alta. É só vasta. Há muitas vozes dentro dela.\n\n— Sente-se um momento — diz Vorthun. — Não tenho medo da Égide. Tenho curiosidade pelo que a carrega.',
     choices: [
       {
@@ -489,7 +489,7 @@ export const ACT3_NODES: NarrativeNode[] = [
     id: 'ending_heroic',
     locationId: 'cidadela_sombras',
     title: 'Final Heroico — Luz Vencedora',
-    imageId: 'scenes/ending_heroic.webp',
+    imageId: 'scenes/ending_heroic.png',
     isEnding: 'ending_heroic',
     text: 'Você sai da Cidadela enquanto ela ainda cai. Os escombros não te alcançam. A Égide, na sua palma, devolve a luz para o céu rachado, e o céu se costura sozinho — devagar, mas se costura. Quando você chega ao alto do desfiladeiro, o sol está nascendo pela primeira vez em três dias.\n\nAenor não saberá os detalhes. Aenor saberá apenas que respira. As pessoas voltam a comer fora de casa. Os sinos voltam a bater a hora certa. O Mestre Arvendel — se sobreviveu — vai reescrever a profecia para incluir o nome verdadeiro daquele que a cumpriu. Em outro lugar, nas tribos do norte, alguém canta sua canção. Em outro lugar, na cidade, uma criança aprende a deletrear seu nome.\n\nVocê terminou.',
     onEnter: [
@@ -506,7 +506,7 @@ export const ACT3_NODES: NarrativeNode[] = [
     id: 'ending_dark',
     locationId: 'cidadela_sombras',
     title: 'Final Sombrio — Coroa Negra',
-    imageId: 'scenes/ending_dark.webp',
+    imageId: 'scenes/ending_dark.png',
     isEnding: 'ending_dark',
     text: 'A Cidadela não cai. Você cuida disso. Os doze braseiros se acendem todos sob o seu comando — não são doze; são mais agora; são quantos você quiser. Vorthun te ensinou bastante antes de ir, e o que ele não ensinou, a Coroa Negra ensina sozinha.\n\nAenor entra em uma paz nova. Mais profunda. Mais quieta. Não há mais Sombras Errantes nas estradas — você é o que come Sombras Errantes agora. Mestre Arvendel não escreveu uma única palavra sobre você nos arquivos. Não foi por medo. Foi porque ele desapareceu antes de poder escrever.\n\nNo alto da torre mais alta da Cidadela, um trono novo. Você senta. A coroa pesa. Pesa mas pesa de modo que você ouve. E continua sentado.',
     onEnter: [
@@ -523,7 +523,7 @@ export const ACT3_NODES: NarrativeNode[] = [
     id: 'ending_sacrifice',
     locationId: 'cidadela_sombras',
     title: 'Final do Sacrifício — Maior Amor',
-    imageId: 'scenes/ending_sacrifice.webp',
+    imageId: 'scenes/ending_sacrifice.png',
     isEnding: 'ending_sacrifice',
     text: 'A luz das três janelas da Égide cresce até virar uma só. Você e Vorthun ficam dentro dela. Ele te olha. Você olha. Em algum momento entre as duas batidas finais do seu coração, vocês são a mesma pessoa por um instante. Em seguida, vocês são ninguém.\n\nAenor amanhece sem você. Sem ele. As Sombras Errantes evaporam onde estiverem, todas, no mesmo segundo. As estradas voltam a ser estradas. Os pescadores de Bramford recolhem redes. A Floresta de Mirthwood respira. Karn-Tuhl dorme.\n\nAnos depois, em uma feira do porto de Bramford, uma criança aponta para uma placa de bronze nova encaixada na parede do Templo do Saber. A placa não tem nome. Tem apenas a forma de três cristais entrelaçados. A mãe da criança não sabe explicar quem foi. Sabe explicar apenas que foi alguém. E que foi suficiente.',
     onEnter: [
@@ -539,7 +539,7 @@ export const ACT3_NODES: NarrativeNode[] = [
     id: 'ending_tragic',
     locationId: 'cidadela_sombras',
     title: 'Final Trágico — Sombras Errantes',
-    imageId: 'scenes/ending_tragic.webp',
+    imageId: 'scenes/ending_tragic.png',
     isEnding: 'ending_tragic',
     text: 'Você vence. Vorthun cai. A Cidadela cai. O céu se costura — em parte. Há um rasgo no leste que não fecha. Pequeno. Quase imperceptível.\n\nAenor sobrevive. Aenor sobrevive descontado. As estradas têm menos pessoas porque há menos pessoas. A Floresta de Mirthwood respira mais devagar do que respirava antes. Bramford reconstrói o que perdeu, mas não tudo. Karn-Tuhl segue dormindo, e talvez agora não acorde mais.\n\nEm algum lugar muito distante, atrás do rasgo no leste, uma das vozes que estavam na voz de Vorthun arruma a garganta. Aprende a falar sozinha. Vai demorar. Mas vai aprender.\n\nVocê termina sentado num campo vazio, com a Égide quebrada no colo. O que você venceu foi o suficiente para hoje. Não para sempre. Você sabe disso. Você se levanta mesmo assim.',
     onEnter: [

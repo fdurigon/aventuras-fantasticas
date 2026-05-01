@@ -8,7 +8,7 @@ export const ACT2_CIDADE_NODES: NarrativeNode[] = [
     id: 'a2_bramford_01',
     locationId: 'bramford',
     title: 'Portão de Bramford',
-    imageId: 'scenes/bramford_market.webp',
+    imageId: 'scenes/bramford_market.png',
     text: 'Bramford fede a peixe e a metal. As muralhas são altas demais para a quantidade de guardas que as patrulha — três no portão sul, dois inclinados como se a alabarda pesasse mais do que a coragem. Um deles bate a mão contra a sua bolsa quando você passa, mais por hábito do que por suspeita, e diz "passa", e não olha mais.\n\nLá dentro, é o ruído. Mercadores gritando preços, cavalos gritando porque mercadores gritam, sinos da Guarda batendo a hora errada por dois segundos. Acima de tudo, sobre o telhado mais alto da cidade, uma cúpula de pedra fechada por correntes — o Templo do Saber. Você veio por causa daquela cúpula.',
     choices: [
       {
@@ -594,7 +594,7 @@ export const ACT2_CIDADE_NODES: NarrativeNode[] = [
     id: 'a2_bramford_08_guilda',
     locationId: 'bramford',
     title: 'A Senhora Sombria',
-    imageId: 'scenes/senhora_sombria.webp',
+    imageId: 'scenes/senhora_sombria.png',
     text: 'A Senhora Sombria recebe você em um salão sem janelas. Quatro velas. Um tabuleiro de pedra branco e preto na mesa, peças interrompidas no meio de um lance. Ela aceita o Selo, gira-o entre dois dedos. Olha para você longamente.\n\n— Bem feito — diz. — A corrente do Templo cai esta noite. Eu mesma vou descer com você. Há coisas no Templo que precisam responder a perguntas minhas.',
     classVariants: {
       ladino: 'Você reconhece os olhos antes do rosto. Ela também reconhece os seus. O sorriso dela se contém um milímetro. — Pequena gata-velha. Quanto tempo. Vamos terminar uma conversa antiga juntas, então.',
@@ -640,7 +640,7 @@ export const ACT2_CIDADE_NODES: NarrativeNode[] = [
     id: 'a2_bramford_09',
     locationId: 'bramford',
     title: 'Portas do Templo do Saber',
-    imageId: 'scenes/templo_saber.webp',
+    imageId: 'scenes/templo_saber.png',
     text: 'A corrente cai com um som que parece pergunta. As portas se abrem para um corredor de pedra que afunda mais do que sobe — três degraus, dez, vinte, cada um marcado com uma runa diferente, todas indistintas no escuro úmido. No fim, uma sala redonda, três portas seladas, três runas vivas pulsando com luz fraca azul. Uma de cada cor: prata, âmbar, azul-cobalto. Uma de cada tipo de prova.',
     choices: [
       {
@@ -880,7 +880,7 @@ export const ACT2_CIDADE_NODES: NarrativeNode[] = [
     id: 'a2_bramford_14',
     locationId: 'bramford',
     title: 'A Senhora no Pedestal',
-    imageId: 'scenes/senhora_sombria.webp',
+    imageId: 'scenes/senhora_sombria.png',
     text: 'Aelin Faro — Senhora Sombria — está parada entre você e a saída. Ela não estava aí dois segundos atrás. As correntes da entrada agora gemem alto, fechando-se sozinhas atrás dela.\n\n— Eu cuido daqui — diz. — Você fez sua parte. Pode ir embora vivo se for embora agora. Sem o Fragmento, naturalmente.',
     classVariants: {
       ladino: 'Ela olha para você de um jeito que diz "menina, você cresceu." Você olha de volta de um jeito que diz "você morre hoje".',

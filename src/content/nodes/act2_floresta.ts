@@ -8,7 +8,7 @@ export const ACT2_FLORESTA_NODES: NarrativeNode[] = [
     id: 'a2_mirthwood_01',
     locationId: 'mirthwood',
     title: 'Entrada da Floresta',
-    imageId: 'scenes/mirthwood_entry.webp',
+    imageId: 'scenes/mirthwood_entry.png',
     text: 'Mirthwood não começa nas árvores — começa três passos antes delas. O ar engrossa, ganha cheiro de musgo molhado e cogumelo doce. As runas no arco de carvalho retorcido brilham com a fadiga de uma brasa esquecida. Folhas que deviam ter caído no outono passado seguem penduradas, secas mas teimosas. O silêncio daqui não é ausência de som; é som contido, como uma plateia esperando alguém falar.\n\nVocê pisa nas pedras musgosas do caminho. Quando olha para trás, a estrada já parece distante demais para a quantidade de passos que deu.',
     choices: [
       {
@@ -407,7 +407,7 @@ export const ACT2_FLORESTA_NODES: NarrativeNode[] = [
     id: 'a2_mirthwood_06',
     locationId: 'mirthwood',
     title: 'O Bosque Profanado',
-    imageId: 'scenes/korvath.webp',
+    imageId: 'scenes/korvath.png',
     text: 'Os três caminhos se encontram numa clareira que não devia existir. As árvores aqui têm cor de carne queimada e uma seiva preta como tinta. No centro, um círculo de pedras druídicas, todas tombadas para o mesmo lado, como se fugissem de algo no meio. Onde o "meio" devia estar, há um homem ajoelhado de costas para você, vestido de verde podre. Ele não se vira ainda.\n\nAntes que ele se vire, três sombras com forma de cervo levantam-se das pedras tombadas.',
     choices: [
       {
@@ -483,7 +483,7 @@ export const ACT2_FLORESTA_NODES: NarrativeNode[] = [
     id: 'a2_mirthwood_08',
     locationId: 'mirthwood',
     title: 'Korvath se Volta',
-    imageId: 'scenes/korvath.webp',
+    imageId: 'scenes/korvath.png',
     text: 'A última sombra desfaz-se em fumaça de carvão e o homem em verde podre finalmente se levanta. Os galhos da coroa de antlers em sua cabeça são pretos, vivos, e crescem alguns centímetros enquanto você o olha. O rosto é jovem; os olhos não.\n\n— Eu não pedi por isso — diz Korvath. — Pedi pela floresta. Mas ela aceitou. E quem aceita o trato escuta a voz que oferece. — Ele sorri, e o sorriso é cansado. — Você veio pelo Fragmento. Ele está em mim. Tira, se puder. Ou ouve, se preferir ouvir.',
     choices: [
       {

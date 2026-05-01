@@ -8,7 +8,7 @@ export const ACT1_NODES: NarrativeNode[] = [
     id: 'a1_pedragar_01',
     locationId: 'pedragar',
     title: 'Abertura',
-    imageId: 'scenes/cena_abertura.webp',
+    imageId: 'scenes/cena_abertura.png',
     text: 'A vila de Pedragar existe há mais de dois séculos nesse dobramento de colina. Hoje à tarde ela é um pano de fundo para o momento em que tudo mudou.',
     classVariants: {
       mago: 'O cheiro de incenso e poeira de livro envolve sua pequena oficina nos fundos da casa do Mestre Arvendel. Você acabou de fechar o terceiro volume do Códex de Iluminação, e o cajado quebrado de Vesperia repousa contra a parede como sempre — em silêncio, mas pesando mais a cada noite. Lá fora, o sino da vila bate pela quinta hora da tarde quando você ouve o grito.',
@@ -82,7 +82,7 @@ export const ACT1_NODES: NarrativeNode[] = [
     id: 'a1_pedragar_05',
     locationId: 'pedragar',
     title: 'Mestre Arvendel Ferido',
-    imageId: 'scenes/arvendel.webp',
+    imageId: 'scenes/arvendel.png',
     text: 'Você segue a voz até o fundo da ruela lateral da praça. Arvendel está encostado numa parede de pedra, os dedos apertando o lado esquerdo das costelas. A túnica está escura de vermelho. Os olhos são vivos, urgentes. Ele te reconhece antes que você diga uma palavra.\n\n— Você — ele murmura. — Sabia que seria você. Sente-se. Ou fique em pé. Não temos tempo para preferências.',
     choices: [
       {
@@ -378,7 +378,7 @@ export const ACT1_NODES: NarrativeNode[] = [
     id: 'a1_pedragar_08',
     locationId: 'estrada',
     title: 'A Encruzilhada',
-    imageId: 'map.webp',
+    imageId: 'map.png',
     text: 'Você sai de Pedragar ao amanhecer. A estrada se divide diante de você. O Mapa da Égide brilha levemente na sua bolsa. Três caminhos. Três fragmentos. Escolha onde começar.',
     onEnter: [
       { kind: 'setFlag', key: 'mapa_destravado', value: true },
