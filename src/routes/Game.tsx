@@ -21,7 +21,7 @@ export function Game() {
   const node = useGameStore(selectCurrentNode)
   const inCombat = useGameStore(selectInCombat)
 
-  const [textDone, setTextDone] = useState(false)
+  const [textDone] = useState(true)
   const [inventoryOpen, setInventoryOpen] = useState(false)
   const [pauseOpen, setPauseOpen] = useState(false)
   const [skillResult, setSkillResult] = useState<null | { success: boolean; message: string; nextNodeId: string }>(null)
@@ -31,14 +31,14 @@ export function Game() {
     const handler = (e: KeyboardEvent) => {
       if (e.key === 'i' || e.key === 'I') setInventoryOpen(v => !v)
       if (e.key === 'Escape') setPauseOpen(v => !v)
-      if (e.key === ' ') setTextDone(true)
+
     }
     window.addEventListener('keydown', handler)
     return () => window.removeEventListener('keydown', handler)
   }, [])
 
-  // Reset text on node change
-  useEffect(() => { setTextDone(false); setSkillResult(null) }, [gameState?.currentNodeId])
+  // Reset skill result on node change
+  useEffect(() => { setSkillResult(null) }, [gameState?.currentNodeId])
 
   if (!gameState || !node) return null
 
@@ -146,11 +146,7 @@ export function Game() {
         {node.title && <h2 className={styles.nodeTitle}>{node.title}</h2>}
 
         <div className={styles.narrative}>
-          <TypewriterText
-            text={narrativeText}
-            speedMs={18}
-            onComplete={() => setTextDone(true)}
-          />
+          <TypewriterText text={narrativeText} />
         </div>
 
         {skillResult && (
