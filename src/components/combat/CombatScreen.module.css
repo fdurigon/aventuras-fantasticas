@@ -2,7 +2,7 @@
   min-height: 100dvh;
   background: var(--color-shadow-blue);
   background-image: radial-gradient(ellipse at center, rgba(122,32,64,0.15) 0%, transparent 70%);
-  color: var(--color-parchment);
+  color: var(--color-ink);
   display: flex;
   flex-direction: column;
   gap: var(--space-4);
