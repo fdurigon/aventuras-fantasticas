@@ -33,7 +33,7 @@ export function CharacterSelect() {
             aria-label={`${c.name}, ${c.title}`}
           >
             <div className={styles.portrait}>
-              <img src={c.portraitImage} alt={c.name} loading="lazy" onError={e => { (e.target as HTMLImageElement).src = '/images/placeholder.webp' }} />
+              <img src={import.meta.env.BASE_URL + c.portraitImage.slice(1)} alt={c.name} loading="lazy" onError={e => { (e.target as HTMLImageElement).style.display = 'none' }} />
             </div>
             <div className={styles.cardBody}>
               <h2 className={styles.charName}>{c.name}</h2>

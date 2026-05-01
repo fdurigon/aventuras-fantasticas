@@ -49,7 +49,7 @@ export function MapView({ gameState, onSelectLocation }: Props) {
 
       <div className={styles.mapContainer}>
         <img
-          src="/images/map.webp"
+          src={`${import.meta.env.BASE_URL}images/map.png`}
           alt="Mapa de Aenor"
           className={styles.mapImage}
           onError={e => { (e.target as HTMLImageElement).style.opacity = '0.1' }}

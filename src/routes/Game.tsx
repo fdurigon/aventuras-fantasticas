@@ -135,7 +135,7 @@ export function Game() {
         {node.imageId && (
           <figure className={styles.scene}>
             <img
-              src={`/images/${node.imageId}`}
+              src={`${import.meta.env.BASE_URL}images/${node.imageId}`}
               alt={node.title ?? 'Cena'}
               loading="lazy"
               onError={e => { (e.target as HTMLImageElement).style.display = 'none' }}

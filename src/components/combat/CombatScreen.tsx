@@ -50,7 +50,7 @@ export function CombatScreen({ combatState, powers, enemy }: Props) {
         {/* Enemy side */}
         <section className={styles.side} aria-label={enemy.name}>
           <div className={styles.enemyPortrait}>
-            <img src={enemy.portraitImage} alt={enemy.name}
+            <img src={import.meta.env.BASE_URL + enemy.portraitImage.slice(1)} alt={enemy.name}
               onError={e => { (e.target as HTMLImageElement).style.display = 'none' }} />
           </div>
           <h3 className={styles.sideTitle}>{enemy.name}</h3>
