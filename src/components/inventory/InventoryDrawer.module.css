@@ -146,7 +146,7 @@
 .useBtn {
   padding: var(--space-1) var(--space-3);
   background: var(--color-sepia);
-  color: var(--color-parchment);
+  color: var(--color-ink);
   border: none;
   border-radius: var(--radius-sm);
   font-family: var(--font-ui);

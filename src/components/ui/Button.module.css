@@ -14,7 +14,7 @@
 
 .primary {
   background: var(--color-sepia);
-  color: var(--color-parchment);
+  color: var(--color-ink);
   border: 2px solid var(--color-ocre);
 }
 .primary:hover { background: var(--color-wine); box-shadow: var(--shadow-glow); }
@@ -29,7 +29,7 @@
 
 .danger {
   background: var(--color-danger);
-  color: var(--color-parchment);
+  color: var(--color-ink);
   border: 2px solid var(--color-danger-light);
 }
 .danger:hover { background: var(--color-danger-light); }

@@ -15,13 +15,13 @@ function GameOver() {
       justifyContent: 'center',
       gap: '2rem',
       background: 'var(--color-shadow-blue)',
-      color: 'var(--color-parchment)',
+      color: 'var(--color-ink)',
       fontFamily: 'var(--font-display)',
     }}>
       <h2 style={{ fontSize: 'var(--text-3xl)', color: 'var(--color-danger)' }}>
         Fim da Jornada
       </h2>
-      <p style={{ fontFamily: 'var(--font-body)', color: 'var(--color-parchment-deeper)', fontStyle: 'italic' }}>
+      <p style={{ fontFamily: 'var(--font-body)', color: 'var(--color-ink-muted)', fontStyle: 'italic' }}>
         A aventura terminou. Mas o Reino de Aenor aguarda novos heróis.
       </p>
       <button
@@ -29,7 +29,7 @@ function GameOver() {
         style={{
           padding: '0.75rem 2rem',
           background: 'var(--color-sepia)',
-          color: 'var(--color-parchment)',
+          color: 'var(--color-ink)',
           border: '2px solid var(--color-ocre)',
           borderRadius: 'var(--radius-md)',
           fontFamily: 'var(--font-ui)',
