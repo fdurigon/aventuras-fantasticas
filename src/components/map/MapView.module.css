@@ -1,0 +1,110 @@
+.root {
+  min-height: 100dvh;
+  background: var(--color-parchment);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--space-8) var(--space-4);
+  gap: var(--space-4);
+  animation: fadeIn 300ms ease;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: var(--text-3xl);
+  color: var(--color-sepia);
+}
+
+.subtitle {
+  color: var(--color-ink-muted);
+  font-style: italic;
+}
+
+.mapContainer {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  aspect-ratio: 16/9;
+  border: var(--border-ornament);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+
+.mapImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: var(--color-parchment-deeper);
+}
+
+.pin {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.pinIcon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: var(--text-base);
+  border: 2px solid;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.pin_available .pinIcon {
+  background: var(--color-parchment);
+  border-color: var(--color-ocre);
+  color: var(--color-sepia);
+  animation: pulse 2s ease infinite;
+}
+
+.pin_available:hover .pinIcon {
+  transform: scale(1.25);
+  box-shadow: var(--shadow-glow);
+}
+
+.pin_completed .pinIcon {
+  background: var(--color-moss);
+  border-color: var(--color-moss);
+  color: white;
+}
+
+.pin_locked .pinIcon {
+  background: var(--color-parchment-deeper);
+  border-color: var(--color-ink-faint);
+  color: var(--color-ink-faint);
+  cursor: not-allowed;
+}
+
+.pin_current .pinIcon {
+  background: var(--color-gold);
+  border-color: var(--color-gold);
+  color: var(--color-shadow-blue);
+}
+
+.pinLabel {
+  font-family: var(--font-ui);
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--color-sepia);
+  background: rgba(244, 234, 213, 0.85);
+  padding: 1px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.pin_locked .pinLabel { color: var(--color-ink-faint); }

@@ -1,0 +1,72 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4);
+}
+
+.dice {
+  display: flex;
+  gap: var(--space-4);
+}
+
+.die {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-ui);
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  background: var(--color-parchment);
+  border: 2px solid var(--color-sepia);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  color: var(--color-sepia);
+}
+
+.rolling {
+  animation: diceRoll 0.3s linear infinite;
+  color: var(--color-ink-faint);
+  border-color: var(--color-ocre);
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+  animation: fadeInUp 200ms ease;
+}
+
+.formula {
+  font-family: var(--font-ui);
+  font-size: var(--text-lg);
+  color: var(--color-ink-muted);
+}
+
+.total {
+  font-size: var(--text-2xl);
+  color: var(--color-sepia);
+}
+
+.success { color: var(--color-moss); }
+.failure { color: var(--color-danger); }
+
+.successLabel {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  color: var(--color-moss);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.failureLabel {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  color: var(--color-danger);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}

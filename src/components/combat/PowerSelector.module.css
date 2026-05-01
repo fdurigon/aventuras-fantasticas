@@ -1,0 +1,83 @@
+.root {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-3);
+}
+
+@media (max-width: 640px) {
+  .root { grid-template-columns: repeat(2, 1fr); }
+}
+
+.power {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: var(--space-3);
+  background: var(--color-parchment-dark);
+  border: var(--border-ornament);
+  border-radius: var(--radius-md);
+  text-align: left;
+  cursor: pointer;
+  transition: background var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+}
+
+.power:hover:not(:disabled) {
+  background: var(--color-parchment-deeper);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-gold);
+}
+
+.power:active:not(:disabled) { transform: translateY(0) scale(0.98); }
+
+.name {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--color-sepia);
+}
+
+.role {
+  font-size: var(--text-xs);
+  color: var(--color-ink-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.damage {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--color-wine);
+  font-weight: 600;
+}
+
+.effect {
+  font-size: var(--text-xs);
+  color: var(--color-moss);
+  font-style: italic;
+}
+
+.penalty {
+  font-size: var(--text-xs);
+  color: var(--color-danger);
+}
+
+.exhausted {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.exhaustedBadge {
+  position: absolute;
+  top: var(--space-2);
+  right: var(--space-2);
+  font-size: 10px;
+  padding: 2px 6px;
+  background: var(--color-ink-faint);
+  color: var(--color-parchment);
+  border-radius: var(--radius-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}

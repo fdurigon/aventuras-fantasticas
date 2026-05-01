@@ -1,0 +1,82 @@
+.root {
+  position: relative;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-shadow-blue);
+  background-image:
+    radial-gradient(ellipse at 60% 40%, rgba(200,149,42,0.08) 0%, transparent 70%),
+    radial-gradient(ellipse at 20% 80%, rgba(122,32,64,0.12) 0%, transparent 60%);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-image: url('/images/map.webp');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.06;
+  pointer-events: none;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-8);
+  padding: var(--space-12) var(--space-8);
+  max-width: 480px;
+  width: 100%;
+  animation: fadeIn 600ms ease;
+}
+
+.titleBlock { text-align: center; }
+
+.subtitle {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  color: var(--color-ocre);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: var(--space-3);
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 8vw, 4rem);
+  font-weight: 700;
+  color: var(--color-parchment);
+  text-shadow: 0 2px 16px rgba(200,149,42,0.5);
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+}
+
+.ornament {
+  margin-top: var(--space-4);
+  color: var(--color-gold);
+  font-size: var(--text-xl);
+  letter-spacing: 0.2em;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  width: 100%;
+}
+
+.finaisLabel {
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  color: var(--color-gold-light);
+  letter-spacing: 0.08em;
+}
+
+.footer {
+  font-size: var(--text-xs);
+  color: var(--color-ink-faint);
+  text-align: center;
+  opacity: 0.6;
+}

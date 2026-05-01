@@ -1,0 +1,57 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  background: var(--color-parchment-dark);
+  border: var(--border-ornament);
+  border-radius: var(--radius-md);
+  min-width: 200px;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.label {
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  color: var(--color-ink-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  min-width: 88px;
+  flex-shrink: 0;
+}
+
+.value {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-sepia);
+}
+
+.barWrap {
+  flex: 1;
+  height: 8px;
+  background: var(--color-parchment-deeper);
+  border-radius: 4px;
+  overflow: hidden;
+  min-width: 60px;
+}
+
+.bar {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 300ms ease;
+}
+
+.barOk     { background: var(--color-moss); }
+.barWarn   { background: var(--color-ocre); }
+.barDanger { background: var(--color-danger); animation: pulse 1.2s ease infinite; }
+.barGold   { background: var(--color-gold); }
+
+.honrado { color: var(--color-moss); }
+.sombrio { color: var(--color-wine); }

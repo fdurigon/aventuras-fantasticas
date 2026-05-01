@@ -1,0 +1,24 @@
+.root {
+  font-size: var(--text-lg);
+  line-height: var(--leading-loose);
+  color: var(--color-ink);
+  cursor: pointer;
+}
+
+.paragraph {
+  margin-bottom: var(--space-4);
+  text-indent: 1.5em;
+}
+
+.paragraph:first-child { text-indent: 0; }
+
+.cursor {
+  display: inline-block;
+  animation: blink 0.8s step-end infinite;
+  color: var(--color-ocre);
+  font-size: 1.1em;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
